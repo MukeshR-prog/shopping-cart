@@ -1,0 +1,143 @@
+.catalog-main {
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: auto;
+    
+    
+  }
+  .img-cont {
+    padding: 0 3px;
+    text-align: start;
+  }
+  .img-cont h4 {
+     
+    margin: 10px 0 5px; 
+    
+  }
+  
+  .img-cont p {
+    font-size: 0.9em; 
+    color: gray; 
+    margin-top: 0;
+  }
+  .catalog-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .catalog-display {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    padding: 5px 0;
+    position: relative;
+  }
+  
+  .catalog-display::-webkit-scrollbar {
+    display: none; 
+  }
+  
+
+  .custom-scrollbar-container {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    margin-top: 10px; 
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .custom-scrollbar-track {
+    background-color: white;
+    width: 80px; 
+    height: 5px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .custom-scrollbar-thumb {
+    background-color: blue;
+    height: 5px;
+    border-radius: 5px;
+    width: 20px; 
+    position: absolute;
+    left: 0; 
+    transition: left 0.1s ease;
+  }
+  
+  .category-button {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .category-button.active {
+    background-color: blue;
+    color: white;
+  }
+  
+  .close {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .catalog-container::-webkit-scrollbar {
+    display: none;
+  }
+  .catalog-container {
+    display: grid;
+    margin-top: 20px; 
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    gap: 20px; 
+    max-height: 450px; 
+    overflow-y: auto;
+  }
+  
+  .catalog-item {
+    position: relative; 
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    text-align: center;
+    cursor: pointer;
+    height: 150px;
+    
+  }
+  
+  .catalog-item img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 80PX;
+    object-fit:cover;
+  }
+  
+  .catalog-main {
+    padding: 20px;
+  }
+  
+.info{
+    border-radius: 25px;
+    color: white;
+    padding: 3px;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    background: rgba(0, 0, 0, 0.4);
+  
+}
+
+.bot-pays{
+    display: flex;
+    margin-top: 3px;
+    justify-content: space-around;
+    padding: 10px 0;
+    gap: 10px;
+ 
+}
+

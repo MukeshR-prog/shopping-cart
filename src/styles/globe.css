@@ -1,0 +1,227 @@
+
+.item-details {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 93%;
+    /* background-color: yellow; */
+    
+  }
+ 
+  .item-cont-row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    /* background-color: aqua; */
+  }
+
+  .back-icon {
+    font-size: 35px;
+    cursor: pointer;
+  }
+  
+ 
+  .item-cont-row2 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    /* background-color: darkblue; */
+    height: 25%;
+    padding: 10px;
+  }
+  .item-cont-row2 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+ 
+  .number-badge {
+    position: absolute;
+    top: 29px;
+    left: 10px; 
+    background-color: #29a9ff;
+    color: white;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .info1 {
+    position: absolute;
+    top: 35px;
+    right: 427px;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    width: 18px;
+    height: 18px;
+  }
+  
+  /* Item description text */
+  .item-cont-row2 h4 {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+  }
+  
+
+  .item-cont-row3 {
+    display: flex;
+    height: 8%;
+    width: 100%;
+    /* background-color: #29a9ff; */
+    justify-content: center;
+  }
+  
+  .varient-btn, .Add-on-btn {
+    padding: 10px 91px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .varient-btn {
+    background-color: #007bff;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+  }
+  
+  .Add-on-btn {
+    background-color: #f0f0f0;
+    color: #333;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border: 1px solid rgb(191, 179, 179);
+  }
+
+  .item-options {
+    padding: 15px;
+  }
+  
+  .item-options h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .item-options label {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  .item-options input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .item-quantity {
+   display: flex;
+   justify-content: space-between;
+   height: 40%;
+  }
+  
+  .item-quantity h4 {
+    font-size: 16px;
+    font-weight: 600;
+    
+  }
+  
+  .item-quantity p {
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+  
+  .quantity-control {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    justify-content: space-around;
+    background-color: white;
+    border: 1px solid rgb(235, 229, 229);
+    border-radius: 5px;
+
+  }
+  
+  .quantity-control button {
+    background-color: white;
+    color: rgb(65, 58, 58);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 4px;
+  }
+  
+  .quantity-control span {
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+
+  }
+  
+  /* Add to order button */
+  .add-to-order-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 15px 100px;
+    font-size: 18px;
+ 
+    cursor: pointer;
+    border-radius: 7px;
+  }
+  .item-bot2{
+    margin: 0;
+    display: flex;
+    /* background-color: red; */
+    gap: 20px;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+  .item-bot1{
+    display: flex;
+    flex-direction: column;
+   /* background-color: #007bff; */
+   height: 14%;
+   
+  
+  }
+  .quantity-row{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .quan-row-radio{
+    display: flex;
+    gap: 3px;
+  }
+
+  .custom-radio{
+    accent-color: blue;
+  }
+  .items-top1{
+    /* background-color: red; */
+    height: 85%;
+  }
